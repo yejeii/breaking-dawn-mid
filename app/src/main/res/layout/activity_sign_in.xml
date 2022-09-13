@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/my_bg"
+    tools:context=".SignIn">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_centerInParent="true">
+
+        <EditText
+            android:id="@+id/edtPhone"
+            android:hint="연락처를 입력하세요"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/white"
+            android:text="01073750528"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:inputType="phone"/>
+            <!--app:met_baseColor="@color/white"
+            app:met_maxCharacters="11"
+            app:met_primaryColor="@color/white"
+            app:met_singleLineEllipsis="true"-->
+
+        <EditText
+            android:hint="비밀번호를 입력하세요"
+            android:id="@+id/edtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/white"
+            android:text="1234"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:inputType="textPassword"/>
+        <!--
+            app:met_baseColor="@color/white"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="11"
+            app:met_primaryColor="@color/white"
+            app:met_singleLineEllipsis="true" -->
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:text="로그인"
+        android:textColor="@color/white"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/btnSignActive"
+        android:shadowColor="@color/black"
+        android:elevation="30dp"/>
+
+</RelativeLayout>

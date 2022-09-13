@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "1068313259627",
+    "firebase_url": "https://androideatnow-c3aec-default-rtdb.firebaseio.com",
+    "project_id": "androideatnow-c3aec",
+    "storage_bucket": "androideatnow-c3aec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1068313259627:android:4b1417d1ed9379108b8b2e",
+        "android_client_info": {
+          "package_name": "com.bitc.eatnow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1068313259627-78csv4uobjtk49pbm5iq73i108h3pn9q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bitc.eatnow",
+            "certificate_hash": "9d860c1f2a9ed33d68c27b5d22cd84ac7e8a7a22"
+          }
+        },
+        {
+          "client_id": "1068313259627-icktuhc6r4khu2criivasbga03k9034l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bitc.eatnow",
+            "certificate_hash": "7e2021b4910382aa86837917ba08a50d534044a7"
+          }
+        },
+        {
+          "client_id": "1068313259627-2l4i1n1ba9am5fr65f7sjukb37faqoaj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSjF2n62bRwo2q5HPQ9yq0byDTLLm0o8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1068313259627-2l4i1n1ba9am5fr65f7sjukb37faqoaj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

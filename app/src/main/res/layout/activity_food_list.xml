@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".FoodList">
+
+    <!-- mt_speechMode : 음성검색 사용 -->
+    <com.mancj.materialsearchbar.MaterialSearchBar
+        android:id="@+id/searchBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentTop="true"
+        app:mt_speechMode="false"
+        app:mt_hint="음식 이름을 입력하세요"/>
+
+    <!-- 검색 결과가 띄워지는 ListView -->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@id/searchBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycler_food"
+        android:scrollbars="vertical"/>
+
+</RelativeLayout>
